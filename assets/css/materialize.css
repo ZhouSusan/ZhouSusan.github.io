@@ -8913,7 +8913,7 @@
     font-weight: 400;
     position: relative;
     -webkit-user-select: none;
-       -moz-user-select: none;
+      -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
   }
@@ -8959,7 +8959,7 @@
     margin-top: 25px;
     margin-bottom: 5px;
     -webkit-user-select: none;
-       -moz-user-select: none;
+      -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
   }
