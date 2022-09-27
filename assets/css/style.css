@@ -37,6 +37,10 @@ body {
     line-height: 2rem;
   }
   
+  .sidenav-trigger {
+    color: #43f4fd;
+  }
+  
   .parallax-container {
     min-height: 380px;
     line-height: 0;
@@ -190,6 +194,6 @@ body {
     }
 
     .nav-mobile{
-
+      
     }
   }
