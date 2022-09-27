@@ -37,10 +37,6 @@ body {
     line-height: 2rem;
   }
   
-  .sidenav-trigger {
-    color: #43f4fd;
-  }
-  
   .parallax-container {
     min-height: 380px;
     line-height: 0;
@@ -96,10 +92,6 @@ body {
   
   .projects-section {
     background: white;
-  }
-  
-  #nav-mobile {
-    /* color: #fd4345; */
   }
   
   .waves-blue , .footer-copyright a {
@@ -195,5 +187,9 @@ body {
   @media only screen and (max-width : 600px) {
     #index-banner .section {
       top: 0;
+    }
+
+    .nav-mobile{
+
     }
   }
