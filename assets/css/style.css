@@ -184,8 +184,8 @@ body {
   .bio *, #connect *, .bio p {
     color: #212121!important;
   }
-  
-  .parallax-container {
+
+  .bio-box {
     min-height: 500px;
     line-height: 0;
     height: auto;
