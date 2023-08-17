@@ -1,10 +1,8 @@
 /* Custom Stylesheet */
-/**
-* Use this file to override Materialize files so you can update
-* the core Materialize files in the future
-*
-* Made By MaterializeCSS.com
-*/
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
     overflow: visible;
@@ -21,139 +19,110 @@ body {
   z-index: 99;
 }
 
-  nav ul a,
-  nav .brand-logo {
-    color: white;
-  }
-  
-  nav ul a:hover {
-    color: #43f4fd;
-  }
-  
-  p {
-    line-height: 2rem;
-  }
+h5 {
+  font-weight: bolder;
+}
 
-  .sidenav-trigger :hover {
-    cursor: pointer;
-    color: #343434;
-  }
-  
-  .sidenav-trigger {
-    color: #43f4fd;
-  }
-  
-  .parallax-container {
-    min-height: 380px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255,255,255,.9);
-  }
-  
-  .parallax-container .section {
-    width: 100%;
-  }
-  
-  .icon-block {
-    padding: 0 15px;
-  }
-  
-  .my-btn .material-icons {
-    vertical-align: middle;
-    line-height: inherit;
-  }
-  
-  footer.page-footer {
-    margin: 0;
-  }
-  
-  .brand-logo span {
-    color: rgb(0, 225, 255)!important;
-  }
-  
-  .links {
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-gap: 0.5em;
-  }
-  
-  .bio-connect {
-    display:grid;
-    grid-template-columns: auto 280px;
-    grid-gap:20px;
-  }
-  
-  .pointer {
-    cursor: pointer;
-  }
-  
-  .navbar-ham {
-    background-color: #202124;
-    box-shadow: 0 2px 4px rgba(0,0,0,.5);
-  }
-  
-  .projects-section {
-    background: white;
-  }
-  
-  .waves-blue , .footer-copyright a {
-    color: #437bfd;
-  }
-  
-  .page-footer {
-    font-size: 140%;
-    background-color: #202124;
-  }
-  
-  .footer-copyright {
-    box-shadow: 0 2px 4px rgba(0,0,0,.5);
-  }
-  
-  .my-btn {
-    font-size: 1.6rem;
-    display: inline-block;
-    vertical-align: middle;
-    transition: .3s ease-out;
-    border-radius: 50%;
-    background-color: transparent;
-    color: #343434;
-    line-height: 45px;
-    width: 45px;
-    text-align: center;
-  }
-  
+nav  ul  a:hover {
+  color: #43f4fd;
+}
+
+.sidenav-trigger {
+  color: #43f4fd;
+}
+
+.parallax-container {
+  min-height: 380px;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section,
+ .spotify-box {
+  width: 100%;
+}
+
+.my-btn .material-icons {
+  vertical-align: middle;
+  line-height: inherit;
+}
+
+.brand-logo span {
+  color: rgb(0, 225, 255)!important;
+}
+
+.links {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.5em;
+}
+
+.bio-connect {
+  display:grid;
+  grid-template-columns: auto 280px;
+  grid-gap:20px;
+}
+
+.quote {
+  color: #f4ed11;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.navbar-ham {
+  background-color: #202124;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
+
+.projects-section {
+  background: white;
+}
+
+
+.page-footer {
+  font-size: 140%;
+  background-color: rgb(21, 189, 189);
+}
+
+.footer-copyright {
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
+
+.copyright {
+  margin-left: 2%;
+  color: #0d215c;
+}
+
+.my-btn {
+  font-size: 1.6rem;
+  display: inline-block;
+  vertical-align: middle;
+  transition: .3s ease-out;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #343434;
+  line-height: 45px;
+  width: 45px;
+  text-align: center;
+}
+
 .my-btn:hover {
   background-color: #f2f2f2;
   transition: background-color 0.5s ease-out;
 }
-
-  #button_div .shadow
-{
-  background-color:#B7950B;
-  transition: all 0.35s ease;
-  border-radius:5px;
-}
-#button_div .shadow:hover
-{
-  border: 1px solid #B7950B;
-  background-color:white;
-  color:#B7950B;
-  box-shadow:0px 0px 25px 0px #B7950B;
-}
   
+.playlist-link {
+  color:rgb(105, 66, 141)
+}
+
 #connect .fab {
   font-size: 1.6rem;
 }
 
 .disabled {
   cursor: no-drop;
-}
-
-.image_off, #home:hover .image_on{
-  display:none
-}
-.image_on, #home:hover .image_off{
-  display:block
 }
 
 #avatar {
@@ -163,6 +132,14 @@ body {
   margin-left: 30%;
 }
   
+.link-item {
+  color: rgb(39, 112, 58); 
+  font-family: 'Courier New', Courier, monospace; 
+  font-weight: bolder;
+  font-size: 3rem;
+  text-align: center;
+  padding: 0.5rem;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -186,10 +163,17 @@ body {
   }
 
   .bio-box {
-    min-height: 500px;
+    min-height: 450px;
     line-height: 0;
     height: auto;
     color: rgba(255,255,255,.9);
+  }
+
+  .link-item {
+    color: rgb(39, 112, 58);
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bolder;
+    font-size: 2rem;
   }
 }
 
@@ -204,5 +188,12 @@ body {
     width: 38%;
     margin-left: 30%;
     margin-top: 20%;
-}
+  }
+
+  .link-item {
+    color: rgb(39, 112, 58); 
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bolder;
+    font-size: 1rem;
+  }
 }
