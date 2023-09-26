@@ -1,4 +1,4 @@
-/* Custom Stylesheet */
+/* Custom StyleSheet */
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +38,7 @@ nav  ul  a:hover {
 }
 
 .parallax-container .section,
- .spotify-box {
+.spotify-box {
   width: 100%;
 }
 
@@ -51,7 +51,7 @@ nav  ul  a:hover {
   color: rgb(0, 225, 255)!important;
 }
 
-.links {
+.links, .copyright {
   display:grid;
   grid-template-columns: 1fr;
   grid-gap: 0.5em;
@@ -64,7 +64,7 @@ nav  ul  a:hover {
 }
 
 .quote {
-  color: #f4ed11;
+  color: #310335;
 }
 
 .pointer {
@@ -86,13 +86,12 @@ nav  ul  a:hover {
   background-color: rgb(21, 189, 189);
 }
 
-.footer-copyright {
-  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+.copyright {
+  text-align: center;
 }
 
-.copyright {
-  margin-left: 2%;
-  color: #0d215c;
+.copyright, .link-item {
+  color: rgb(39, 112, 58);
 }
 
 .my-btn {
@@ -133,7 +132,6 @@ nav  ul  a:hover {
 }
   
 .link-item {
-  color: rgb(39, 112, 58); 
   font-family: 'Courier New', Courier, monospace; 
   font-weight: bolder;
   font-size: 3rem;
@@ -170,9 +168,6 @@ nav  ul  a:hover {
   }
 
   .link-item {
-    color: rgb(39, 112, 58);
-    font-family: 'Courier New', Courier, monospace; 
-    font-weight: bolder;
     font-size: 2rem;
   }
 }
@@ -191,9 +186,6 @@ nav  ul  a:hover {
   }
 
   .link-item {
-    color: rgb(39, 112, 58); 
-    font-family: 'Courier New', Courier, monospace; 
-    font-weight: bolder;
     font-size: 1rem;
   }
 }
